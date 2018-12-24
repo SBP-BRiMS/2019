@@ -342,8 +342,8 @@ h1, h2, h3, h4, h5, h6 {
     background: #376264;  /* green  */
     background: #9F2C19;  /* red  */
     background: #D3D3D3;  /* lightgray */
-	border-top: 30px solid #9F2C19;
-    margin-top:60px;
+	border-top: 10px solid #9F2C19;
+    margin-top:70px;
     padding-top:50px;
     padding-bottom:40px;
 }
