@@ -826,19 +826,16 @@ ul.topics li ul li {
 }
 
 #under-footer-copyright {
-    margin: 17px 0px 0px 0px;
+    margin: 13px 0px 0px 0px;
+	text-align: right;
 }
 
 #under-footer-copyright a {
     color: #777;
 }
 
-#under-footer-privacy {
-    margin: 27px 0px 0px 0px;
-}
-
-#under-footer-privacy a {
-    color: #000;
+.privacy {
+	text-align: right;
 }
 
 #under-footer-back-to-top {
