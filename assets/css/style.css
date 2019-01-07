@@ -833,6 +833,14 @@ ul.topics li ul li {
     color: #777;
 }
 
+#under-footer-privacy {
+    margin: 27px 0px 0px 0px;
+}
+
+#under-footer-privacy a {
+    color: #000;
+}
+
 #under-footer-back-to-top {
     margin: 10px;
     z-index: 999;
