@@ -869,8 +869,8 @@ ul.topics li ul li {
 
 .flickr-widget a {
     float: left;
-    width: 90px;
-    height: 60px;
+    width: 176px;
+    height: 120px;
     margin-left: 0px;
     margin-right: 9px;
     margin-bottom: 9px;
@@ -887,7 +887,7 @@ ul.topics li ul li {
     overflow: hidden;
 }
 
-.ie7 .flickr-widget a {width: 84px; height: 54px;}
+.ie7 .flickr-widget a {width: 168px; height: 108px;}
 /* Twitter Widget
 =================================================================== */
 #twitter {
