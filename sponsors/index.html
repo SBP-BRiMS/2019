@@ -2,6 +2,31 @@
 <html lang="en">
 <script src="http://www.w3schools.com/lib/w3data.js"></script>
 <div w3-include-html="../assets/pageheader.html"></div>
+<head>
+<style>
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+</style>
+</head>
+
 
 <!-- start: Body -->
     <div id="aboutwrap">
@@ -13,12 +38,26 @@
 						2019 International Conference on Social Computing, Behavioral-Cultural Modeling, & Prediction and Behavior Representation in Modeling and Simulation <br />
 						July 09-12, 2019, Lehman Auditorium, George Washington University, Washington DC, USA 
 					</h3>
-				</div>
-				
-				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
-					<p>Artificial Intelligence Journal</p>
-					<img src="./images/ARTINT_Logo2_c_web_more.jpg" alt="Artificial Intelligence Journal logo">
 					
+					<div class="gallery">
+						<a href="http://aij.ijcai.org/" target="_blank"><img src="./images/ARTINT_Logo2_c_web_more.jpg" alt="Artificial Intelligence Journal logo" width="600" height="400"></a>
+						<div class="desc">Artificial Intelligence Journal</div>
+					</div>
+
+					<div class="gallery">
+						<a href="https://www.nsf.gov/" target="_blank"><img src="./images/NSF_Logo.jpg" alt="NSF logo" width="600" height="400"></a>
+						<div class="desc">National Science Foundation</div>
+					</div>
+					
+					<div class="gallery">
+						<a href="https://www.arl.army.mil/www/default.cfm?page=29" target="_blank"><img src="./images/aro_logo.jpg" alt="ARO logo" width="600" height="400"></a>
+						<div class="desc">Army Research Office</div>
+					</div>
+					
+					<div class="gallery">
+						<a href="https://southbigdatahub.org/" target="_blank"><img src="./images/south-BD-hub-logo.jpg" alt="South Big Data Hub logo" width="600" height="400"></a>
+						<div class="desc">South Big Data Innovation Hub</div>
+					</div>
 				</div>
             </div><!-- /row mt -->
        </div><!-- /container   -->
