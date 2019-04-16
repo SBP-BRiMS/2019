@@ -3,6 +3,27 @@
 <script src="http://www.w3schools.com/lib/w3data.js"></script>
 <div w3-include-html="../assets/pageheader.html"></div>
 
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+</head>
+
 <!-- start: Body -->
     <div id="aboutwrap">
         <div class="container">
