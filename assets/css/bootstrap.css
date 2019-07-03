@@ -3143,13 +3143,26 @@ input[type="button"].btn-block {
     left: 0;
   }
 }
-
+.btn-group .button {
+  background-color: #EAECEE; /* Grey */
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  cursor: pointer;
+  float: center;
+}
+.btn-group .button:hover {
+  background-color: #808B96;
+}
 .btn-group,
 .btn-group-vertical {
   position: relative;
   display: inline-block;
   vertical-align: middle;
-  float: center;
+  float: left;
 }
 .btn-group > .btn,
 .btn-group-vertical > .btn {
@@ -3181,7 +3194,7 @@ input[type="button"].btn-block {
 }
 .btn-toolbar .btn-group,
 .btn-toolbar .input-group {
-  float: center;
+  float: left;
 }
 .btn-toolbar > .btn,
 .btn-toolbar > .btn-group,
