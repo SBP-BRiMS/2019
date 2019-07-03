@@ -42,7 +42,8 @@ textarea {
 }
 
 #day1, #day2, #day3{
-	margin-top: 100px;
+	position: relative;
+	padding-top: 80px;
 }
 /*
  * A better looking default horizontal rule
