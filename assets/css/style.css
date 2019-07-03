@@ -41,6 +41,9 @@ textarea {
     text-shadow: none;
 }
 
+#day1, #day2, #day3{
+	margin-top: 80px;
+}
 /*
  * A better looking default horizontal rule
  */
