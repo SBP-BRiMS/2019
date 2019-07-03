@@ -58,23 +58,6 @@ textarea {
 	text-align: center
 }
 
-.btn-group .button {
-  background-color: #EAECEE; /* light grey */
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  cursor: pointer;
-  float: center;
-}
-
-.btn-group .button:hover {
-  background-color: ##566573;
-}
-
 /* ==========================================================================
    General styles
    ========================================================================== */
