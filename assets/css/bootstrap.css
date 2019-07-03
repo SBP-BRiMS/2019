@@ -3146,7 +3146,7 @@ input[type="button"].btn-block {
 .btn-group,
 .btn-group-vertical {
   position: relative;
-  padding-left: 25%;
+  padding-left: 30%;
   display: inline-block;
   vertical-align: middle;
 }
