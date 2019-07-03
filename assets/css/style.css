@@ -41,9 +41,17 @@ textarea {
     text-shadow: none;
 }
 
-#day1, #day2, #day3{
+#day1{
 	position: relative;
-	padding-top: 100px;
+	padding-top: 250px;
+}
+#day2{
+	position: relative;
+	padding-top: 200px;
+}
+#day3{
+	position: relative;
+	padding-top: 200px;
 }
 /*
  * A better looking default horizontal rule
