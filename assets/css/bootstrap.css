@@ -3143,11 +3143,13 @@ input[type="button"].btn-block {
     left: 0;
   }
 }
+
 .btn-group,
 .btn-group-vertical {
   position: relative;
   display: inline-block;
   vertical-align: middle;
+  float: center;
 }
 .btn-group > .btn,
 .btn-group-vertical > .btn {
@@ -3179,7 +3181,7 @@ input[type="button"].btn-block {
 }
 .btn-toolbar .btn-group,
 .btn-toolbar .input-group {
-  float: left;
+  float: center;
 }
 .btn-toolbar > .btn,
 .btn-toolbar > .btn-group,
